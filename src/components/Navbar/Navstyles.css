@@ -2,46 +2,47 @@
 {
     list-style: none;
     display: inline;
-    margin: 0 10px;
+    margin: 0 20px;
 }
 
-.nav-link
+
+nav .nav-link
 {
    text-decoration: none;
    color:black;
    font-weight: bold;
 }
 
-.container div
+nav .container
 {
-    display: inline-block;
-}
-
-
-.container
-{
-    text-align: center;
+    display: flex;
     width: 100%;
+    align-items: center;
+    justify-content: center;
+    font-size: large;
 }
 
-.container a
+.nav-logo,.nav-links
 {
-    vertical-align: bottom;
+    display: flex;
 }
+
 nav
 {
     padding: 10px 0;
 }
 
 @media only screen and (max-width: 480px) {
+    nav .container
+    {
+       flex-direction: column;
+    }
+    
     nav ul
     {
         display: flex;
         flex-wrap: nowrap;
         flex-direction: column;
+        padding-left: 0;
     }
-   .navlogo
-   {
-     display: block;
-   }
 }

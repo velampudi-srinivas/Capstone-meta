@@ -1,0 +1,59 @@
+.test-section
+{
+    background-color:#495e57;
+}
+
+.test-body
+{
+    width: 80%;
+    margin: auto    ;
+}
+
+.test-head
+{
+    text-align: center;
+    font-size: 2rem;
+    color:#B79B0F;
+    padding: 1em 0;
+}
+
+.test-cards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    box-sizing: border-box;
+}
+
+
+.test-card
+{
+    width: 250px;
+    background-color: white;
+    padding: 1rem 0;
+    text-align: center;
+    margin: 1rem;
+    border-radius: 5%;
+}
+
+.testcard-label img{
+    width: 60%;
+    padding: 0.5em;
+}
+
+.testcard-info img
+{
+    width: 75px;
+    height: 75px;
+    padding: 0.5em;
+}
+
+.testcard-info span{
+    padding: 0.5em;
+    font-weight: 500;
+}
+
+.testcard-des
+{
+    padding: 0.5em;
+    font-style: italic;
+}

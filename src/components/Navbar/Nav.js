@@ -5,29 +5,31 @@ function Nav() {
   return (
     <>
       <nav>
-        <div class="container">
-          <a class="navlogo" href="./" role="img">
-            <img src={Logo} alt="Little lemon logo"/>
-          </a>
-          <div>
+        <div className="container">
+          <div className='nav-logo'>
+            <a className="navlogo" href="./" role="img">
+              <img src={Logo} alt="Little lemon logo" />
+            </a>
+          </div>
+          <div className='nav-links'>
             <ul>
-              <li class="nav-item">
-                <a class="nav-link" href="./">Home</a>
+              <li className="nav-item">
+                <a className="nav-link" href="./">Home</a>
               </li>
-              <li class="nav-item">
-                <a class="nav-link" href="./">About</a>
+              <li className="nav-item">
+                <a className="nav-link" href="./">About</a>
               </li>
-              <li class="nav-item">
-                <a class="nav-link" href="./">Menu</a>
+              <li className="nav-item">
+                <a className="nav-link" href="./">Menu</a>
               </li>
-              <li class="nav-item">
-                <a class="nav-link" href="./">Reservations</a>
+              <li className="nav-item">
+                <a className="nav-link" href="./">Reservations</a>
               </li>
-              <li class="nav-item">
-                <a class="nav-link" href="./">Order Online</a>
+              <li className="nav-item">
+                <a className="nav-link" href="./">Order Online</a>
               </li>
-              <li class="nav-item">
-                <a class="nav-link" href="./">Login</a>
+              <li className="nav-item">
+                <a className="nav-link" href="./">Login</a>
               </li>
             </ul>
           </div>

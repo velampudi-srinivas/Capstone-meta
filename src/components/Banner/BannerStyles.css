@@ -1,0 +1,59 @@
+.banner-section
+{
+   background-color:white;
+   width: 100%;
+   padding: 5rem 0;
+}
+
+.banner-banner
+{
+    width: 80%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 50% 45%;
+    grid-column-gap: 5%;
+}
+
+.banner-heading
+{
+    color: #B79B0F;
+    font-size:2rem;
+}
+
+.banner-heading h2
+{
+    margin-bottom: 0;
+}
+
+.banner-label
+{
+    color: black;
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+.banner-description
+{
+    color:black;
+    padding: 1rem 0 2rem 0;
+    width: 90%;
+    font-size: large;
+}
+
+.imga
+{
+    width: 50%;
+    height: 60%;
+    margin-left: 10em;
+}
+
+.imgb
+{
+    width: 50%;
+    height: 60%;
+    margin-top: -10em;
+}
+
+@media only screen and (max-width: 768px) 
+{
+   
+}

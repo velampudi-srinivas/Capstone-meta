@@ -1,0 +1,93 @@
+.btn-high
+{
+    background-color: #DEBB12;
+    padding: 1rem 1.5rem;
+}
+
+.btn-high
+{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    border-radius: 0.3rem;
+}
+
+.high-btn-container
+{
+    text-align: right;
+}
+
+.high-section
+{
+    padding: 2rem;
+    width: 80%;
+    margin: auto;
+    box-sizing: border-box;
+}
+.high-banner
+{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 2rem;
+}
+
+.high-cards
+{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    grid-gap: 2rem;
+}
+
+.high-card
+{
+    background-color: #EDEFEE;
+    box-sizing: border-box;
+    border-top-left-radius: 5%;
+    border-top-right-radius: 5%;
+}
+
+.hcard-img img
+{
+    border-top-left-radius: 5%;
+    border-top-right-radius: 5%;
+    width: 100%;
+    height: 260px;
+}
+.hcard-body
+{
+    padding: 1.5rem 2rem;
+}
+.hcard-details
+{
+   display: grid;
+   grid-template-columns: 50% 50%;
+   font-weight: bold;
+}
+.hcard-price
+{
+    display: grid;
+    justify-content: right;
+    color: #EE9972;
+}
+
+.hcard-description p
+{
+    color: #495E57;
+    min-height: 110px;
+    padding: 2rem 0;
+}
+
+.hcard-cta a
+{
+  font-weight: bold;
+  text-decoration: none;
+  color: black;
+}
+
+.hcard-cta img
+{
+    margin-left: 10px;
+}

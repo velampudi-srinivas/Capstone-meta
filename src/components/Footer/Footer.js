@@ -12,40 +12,40 @@ function Footer() {
           </div>
           <div className="footer-links">
           <ul>
-              <li class="nav-item">
-                <a class="nav-link" href="./">Home</a>
+              <li className="nav-item">
+                <a className="nav-link" href="./">Home</a>
               </li>
-              <li class="nav-item">
-                <a class="nav-link" href="./">About</a>
+              <li className="nav-item">
+                <a className="nav-link" href="./">About</a>
               </li>
-              <li class="nav-item">
-                <a class="nav-link" href="./">Menu</a>
-              </li>
-            </ul>
-          </div>
-          <div className="footer-links">
-          <ul>
-              <li class="nav-item">
-                <a class="nav-link" href="./">Reservations</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="./">Order Online</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="./">Login</a>
+              <li className="nav-item">
+                <a className="nav-link" href="./">Menu</a>
               </li>
             </ul>
           </div>
           <div className="footer-links">
           <ul>
-              <li class="nav-item">
-                <a class="nav-link" href="./">Offers</a>
+              <li className="nav-item">
+                <a className="nav-link" href="./">Reservations</a>
               </li>
-              <li class="nav-item">
-                <a class="nav-link" href="./">Contact us</a>
+              <li className="nav-item">
+                <a className="nav-link" href="./">Order Online</a>
               </li>
-              <li class="nav-item">
-                <a class="nav-link" href="./">Stores</a>
+              <li className="nav-item">
+                <a className="nav-link" href="./">Login</a>
+              </li>
+            </ul>
+          </div>
+          <div className="footer-links">
+          <ul>
+              <li className="nav-item">
+                <a className="nav-link" href="./">Offers</a>
+              </li>
+              <li className="nav-item">
+                <a className="nav-link" href="./">Contact us</a>
+              </li>
+              <li className="nav-item">
+                <a className="nav-link" href="./">Stores</a>
               </li>
             </ul>
           </div>
