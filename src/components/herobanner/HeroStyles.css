@@ -11,7 +11,7 @@
     margin: auto;
     display: grid;
     grid-template-columns: 50% 45%;
-    grid-column-gap: 5%;
+    grid-column-gap: 10%;
     position: relative;
 }
 
@@ -63,24 +63,22 @@
 {
    .hero-banner
    {
-    position:static ;
+      text-align: center;
    }
 
-   .hero-image img
+   .hero-image 
    {
-     position: static;
-     width: 100%;
-     height: auto;
+     display: none;
    }
 
    .hero-banner
    {
-    grid-template-columns: 50% 45%;
-    grid-column-gap: 5%;
+    grid-template-columns:auto;
    }
 
    .hero-description
    {
-    width: 100%;
+    text-align: justify;
+    margin: auto;
    }
 }

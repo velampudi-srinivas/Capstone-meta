@@ -1,15 +1,23 @@
 import './Navstyles.css';
+import button from "./assets/menu.jpg";
 import Logo from "./Logo.svg"
 
 function Nav() {
+  function classToggle() {
+    const navs = document.querySelectorAll('.nav-item')
+    navs.forEach(nav => nav.classList.toggle('Navbar__ToggleShow'));
+  }
   return (
     <>
-      <nav>
+      <nav className='nav-bar'>
         <div className="container">
           <div className='nav-logo'>
             <a className="navlogo" href="./" role="img">
               <img src={Logo} alt="Little lemon logo" />
             </a>
+          </div>
+          <div className="Navbar__Link Navbar__Link-toggle">
+            <img src={button} onClick={classToggle} alt='logo'/>
           </div>
           <div className='nav-links'>
             <ul>

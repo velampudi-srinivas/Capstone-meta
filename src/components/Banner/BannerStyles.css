@@ -42,18 +42,48 @@
 .imga
 {
     width: 50%;
-    height: 60%;
-    margin-left: 10em;
+    height: 250px;
+    margin-left: 8em;
 }
 
 .imgb
 {
     width: 50%;
-    height: 60%;
-    margin-top: -10em;
+    height: 250px;
+    margin-top: -5em;
 }
 
-@media only screen and (max-width: 768px) 
+@media only screen and (max-width: 768px)
 {
-   
+   .banner-banner
+   {
+    grid-template-columns: auto;
+   }
+   .banner-conent
+   {
+     text-align: center;
+   }
+   .banner-description
+   {
+    margin: auto;
+    text-align: justify;
+   }
+   .banner-image
+   {
+    width: 85%;
+    margin: auto
+   }
+   .imga
+   {
+       width: 48%;
+       height: 60%;
+       margin-left: 0em;
+   }
+   .imgb
+   {
+       width: 48%;
+       height: 60%;
+       margin-top: 0em;
+       margin-left: 1px;
+   }
 }
