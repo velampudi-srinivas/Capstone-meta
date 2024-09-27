@@ -21,3 +21,8 @@ form div
     justify-content: center;
     align-items: center;
 }
+
+.error {
+    color: red;
+    font-size: 0.8em;
+}
