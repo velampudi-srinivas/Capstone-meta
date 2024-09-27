@@ -1,5 +1,6 @@
 import "./HeroStyles.css"
 import heroimage from "./assets/restauranfood.jpg"
+import { Link } from "react-router-dom";
 
 function Hero()
 {
@@ -18,7 +19,7 @@ function Hero()
                          <p>Discover Little Lemon, your go-to destination for delicious, fresh food made with love. Enjoy our diverse menu featuring wholesome ingredients and flavors that delight. Join us for a meal today!</p>
                    </div>
                    <div className="hero-cta">
-                          <a href="./">Reserve a Table</a>
+                          <span><Link className="cta" to="/booking">Reserve a Table</Link></span>
                    </div>
                 </div>
                 <div className="hero-image">

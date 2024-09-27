@@ -1,23 +1,20 @@
 import './App.css';
-import Header from "./components/Header"
-import Footer from './components/Footer/Footer';
-import Highlights from './components/Highlights/Highlights';
-import Hero from './components/herobanner/Hero';
-import Spacer from './components/Spacer/Spacer';
-import Testimonials from './components/Testimonials/Testimonials';
-import Banner from './components/Banner/Banner';
+import BoookingConfirmation from './pages/BookingConfirmation';
+import BookingPage from './pages/BookingPage';
+import Home from './pages/Home';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
 function App() {
   return (
-    <>
-      <Header/>
-      <Hero/>
-      <Spacer/>
-      <Highlights/>
-      <Testimonials/>
-      <Banner/>
-      <Footer/>
-    </>
+    <Router>
+      <>
+        <Routes>
+          <Route path="/" element={<Home/>}></Route>
+          <Route path="/booking" element={<BookingPage />}></Route>
+          <Route path="/booking-confirmation" element={<BoookingConfirmation/>}></Route>
+        </Routes>
+      </>
+    </Router>
   );
 }
 
