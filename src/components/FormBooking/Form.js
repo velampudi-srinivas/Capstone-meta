@@ -97,7 +97,7 @@ const Form = ({ availableTimes, onDateChange, onSubmit }) => {
                 {errors.occasion && <p className="error">{errors.occasion}</p>}
             </div>
             <div className='btn'>
-            <input className='sub-btn' type="submit" value="Make Your Reservation" aria-label="submit button"/>
+            <input className='sub-btn' type="submit" value="make Your Reservation"/>
             </div>
         </form>
     );
