@@ -19,7 +19,7 @@ function Hero()
                          <p>Discover Little Lemon, your go-to destination for delicious, fresh food made with love. Enjoy our diverse menu featuring wholesome ingredients and flavors that delight. Join us for a meal today!</p>
                    </div>
                    <div className="hero-cta">
-                          <span><Link className="cta" to="/booking">Reserve a Table</Link></span>
+                          <span><Link className="cta" to="/booking" aria-label="Reserve a Table">Reserve a Table</Link></span>
                    </div>
                 </div>
                 <div className="hero-image">

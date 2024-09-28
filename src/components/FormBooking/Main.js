@@ -64,7 +64,6 @@ const Main = forwardRef((_, ref) => {
 
     return (
         <div>
-            <h1>Reservation</h1>
             <Form availableTimes={state.availableTimes} onDateChange={updateTimes} onSubmit={submitAPI}/>
         </div>
     );
